@@ -24,6 +24,9 @@ public class CharacterClass {
         if (bFalse()&bTrue()) {
             System.out.println();
         }
+        int i=3;
+        i = -i++ + i++ + -i;
+        System.out.println("i = " + i);
     }
     private static boolean bFalse(){
         System.out.println("False ");
