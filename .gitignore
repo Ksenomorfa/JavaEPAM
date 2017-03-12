@@ -29,3 +29,8 @@
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
+
+build/
+.nb-gradle/
+gradle/
+.gradle/
