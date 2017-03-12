@@ -2,7 +2,6 @@
 package ru.polinabevad.javarecall.epam;
 
 import java.math.BigInteger;
-import java.util.ArrayList;
 
 public class CharacterClass {
     public static void main(String[] args) {

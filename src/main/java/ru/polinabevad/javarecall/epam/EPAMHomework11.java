@@ -1,7 +1,7 @@
 package ru.polinabevad.javarecall.epam;
 
-public class EPAMHomework11 {
-    int i0;
+public class EPAMHomework11 extends LoseAccuracy {
+    private int i0;
 
     public void Hello (){
             System.out.println("Hello, World2!");
@@ -44,7 +44,7 @@ public class EPAMHomework11 {
         System.out.println(h);
         
     }
-    public void hello(){
+    void hello(){
         System.out.println("Hello, World2!");
         System.out.println(i0);
     }

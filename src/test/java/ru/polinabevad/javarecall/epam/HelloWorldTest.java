@@ -1,7 +1,12 @@
 package ru.polinabevad.javarecall.epam;
 
-/**
- * Created by Ksenomorfa on 3/12/2017.
- */
+import org.junit.Test;
+import org.junit.Assert;
+
 public class HelloWorldTest {
+    @Test
+    public void Testing() {
+
+    }
+
 }

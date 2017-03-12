@@ -2,8 +2,8 @@
 package ru.polinabevad.javarecall.epam;
 
 public class LoseAccuracy {
+        static int a = 100;
     public static void main(String[] args){
-     
         int x1 = 123456789;
         int x2 = 99999999;
         float f3 = x1;
