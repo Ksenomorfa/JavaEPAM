@@ -17,6 +17,8 @@ public class TestPriority {
         System.out.println(g++ + ". " +i);
         System.out.println(g++ + ". " +((j + k - i)== -4));
 
+        StaticImport n= new StaticImport();
+        n.staticImport();
     }
 
 }
