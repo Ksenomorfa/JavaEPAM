@@ -1,5 +1,5 @@
 
-package ru.polinabevad.javarecall.epam;
+package ru.polinabevad.javarecall.epam.module1;
 
 import java.math.BigInteger;
 

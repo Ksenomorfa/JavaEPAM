@@ -1,4 +1,4 @@
-package ru.polinabevad.javarecall.epam;
+package ru.polinabevad.javarecall.epam.module1;
 
 
 public class Cycles {

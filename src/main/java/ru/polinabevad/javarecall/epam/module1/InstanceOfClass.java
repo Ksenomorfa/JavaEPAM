@@ -1,4 +1,9 @@
-package ru.polinabevad.javarecall.epam;
+package ru.polinabevad.javarecall.epam.module1;
+
+import ru.polinabevad.javarecall.epam.module1.OptionalCourse;
+import ru.polinabevad.javarecall.epam.module1.BaseCourse;
+import ru.polinabevad.javarecall.epam.module1.Course;
+import ru.polinabevad.javarecall.epam.module1.FreeCourse;
 
 public class InstanceOfClass {
     public static void main(String[] args) {

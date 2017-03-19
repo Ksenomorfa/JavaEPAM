@@ -1,4 +1,4 @@
-package ru.polinabevad.javarecall.epam;
+package ru.polinabevad.javarecall.epam.module1;
 
 /**
  * Created by Ksenomorfa on 3/12/2017.
@@ -16,10 +16,12 @@ public class StrToNum {
         System.out.println(x + y);
 
         strInt = String.valueOf(x+1);
+        if (strInt instanceof String) System.out.println("true");
         strDouble = String.valueOf(y+1);
         System.out.println("StrInt =" + strInt);
         System.out.println("StrDouble =" + strDouble);
         int f= Integer.valueOf("204");
+        System.out.println(strInt+strDouble);
         System.out.println(f);
 
         String str;

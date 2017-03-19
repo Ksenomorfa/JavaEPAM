@@ -1,4 +1,6 @@
-package ru.polinabevad.javarecall.epam;
+package ru.polinabevad.javarecall.epam.module1;
+
+import ru.polinabevad.javarecall.epam.module1.EPAMHomework11;
 
 /**
  * Тестовая программа

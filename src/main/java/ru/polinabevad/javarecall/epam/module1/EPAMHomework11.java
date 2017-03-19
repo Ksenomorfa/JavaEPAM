@@ -1,4 +1,7 @@
-package ru.polinabevad.javarecall.epam;
+package ru.polinabevad.javarecall.epam.module1;
+
+import ru.polinabevad.javarecall.epam.module1.AboutJava;
+import ru.polinabevad.javarecall.epam.module1.HelloWorld;
 
 public class EPAMHomework11 extends LoseAccuracy {
     private int i0;

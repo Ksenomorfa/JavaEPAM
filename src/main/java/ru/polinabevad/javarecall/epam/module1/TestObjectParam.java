@@ -1,5 +1,5 @@
 
-package ru.polinabevad.javarecall.epam;
+package ru.polinabevad.javarecall.epam.module1;
 
 public class TestObjectParam {
     public static void main(String[] args) {
