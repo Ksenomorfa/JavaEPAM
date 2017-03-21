@@ -1,29 +1,20 @@
-apply plugin: 'java'
+allprojects {
+    group = 'ru.polinabevad.javarecall'
+    version = '1.0-SNAPSHOT'
+}
 
-defaultTasks 'jar'
+subprojects {
+    apply plugin: 'java'
 
-jar {
-    from {
-        (configurations.runtime).collect {
-            it.isDirectory() ? it : zipTree(it)
-        }
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
+
+    repositories {
+        mavenCentral()
     }
-    manifest {
-        attributes 'Main-Class': 'ru.polinabevad.javarecall.epam.HelloWorld'
+
+    dependencies {
+        testCompile 'junit:junit:4.12'
+        compileOnly 'org.projectlombok:lombok:+'
     }
-}
-sourceCompatibility = '1.8'
-targetCompatibility = '1.8'
-[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
-
-if (!hasProperty('mainClass')) {
-    ext.mainClass = 'ru.polinabevad.javarecall.epam.HelloWorld'
-}
-
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    testCompile 'junit:junit:4.12'
 }
