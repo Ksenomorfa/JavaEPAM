@@ -1,9 +1,3 @@
-allprojects {
-    group = 'ru.polinabevad.javarecall'
-    version = '1.0-SNAPSHOT'
-}
-
-subprojects {
     apply plugin: 'java'
 
     sourceCompatibility = '1.8'
@@ -17,4 +11,3 @@ subprojects {
         testCompile 'junit:junit:4.12'
         compileOnly 'org.projectlombok:lombok:+'
     }
-}

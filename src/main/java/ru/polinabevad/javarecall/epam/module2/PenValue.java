@@ -18,12 +18,13 @@ public class PenValue {
 
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Throwable {
         val pen = new PenValue()
                 .setPrice(1)
                 .setProductName(" ");
         System.out.println(pen);
         System.out.println(pen.equals(new PenValue(1," ")));
+        pen.finalize();
     }
 
 

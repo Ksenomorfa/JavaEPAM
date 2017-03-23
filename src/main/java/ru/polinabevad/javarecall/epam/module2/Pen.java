@@ -12,9 +12,9 @@ public class Pen {
     private String productName;
 
     public static void  main(String [] args) {
-        val pen = new Pen()
-                .setPrice(1)
-                .setProductName(" ");
+        final ru.polinabevad.javarecall.epam.module2.Pen pen = new Pen();
+        pen.setPrice(1);
+        pen.setProductName(" ");
         System.out.println(pen);
         pen.equals(new Pen());
     }
