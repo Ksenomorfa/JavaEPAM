@@ -27,7 +27,7 @@ public class VarArgs {
         VarArgs var = new VarArgs();
         var.methodName(1,"ldf",1239,true);
         Integer[] x={1,2,3};
-        var.methodName(x);
+        //var.methodName(x);
         var.methodName(x,x);
     }
 }
