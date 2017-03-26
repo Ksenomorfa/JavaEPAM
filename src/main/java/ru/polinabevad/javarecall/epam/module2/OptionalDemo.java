@@ -15,7 +15,7 @@ public class OptionalDemo {
 
         //obl=ob2;
 
-        Optional ob3 = new Optional();
+        Optional<java.io.Serializable> ob3 = new Optional<>();
         System.out.println(ob3.getValue());
         ob3.setValue("Java Se6");
         System.out.println(ob3.toString());

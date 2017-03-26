@@ -22,9 +22,9 @@ public class Demo{
         Book book = new Book("Java");
         System.out.println(book.getTitle());
         Date myDatr = new Date();
-        System.out.println("Before:" + myDatr.getDate());
+        //System.out.println("Before:" + myDatr.getDate());
         changeDate(myDatr);
-        System.out.println("After:" + myDatr.getDate());
+        //System.out.println("After:" + myDatr.getDate());
         String str = new String("I like");
         str="New";
         System.out.println(str);
@@ -50,8 +50,8 @@ public class Demo{
     }
 
     private static void changeDate(Date date) {
-        System.out.println(" - before change" + date.getDate());
-        date.setDate(12);
-        System.out.println(" - after change" + date.getDate());
+        //System.out.println(" - before change" + date.getDate());
+        //date.setDate(12);
+        //System.out.println(" - after change" + date.getDate());
     }
 }
