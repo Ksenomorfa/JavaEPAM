@@ -15,9 +15,15 @@ public class Sort {
 
         Sort quickSort = new QuickSort();
         quickSort.testSort(massiveRandom,i+5);
-        */
+
         Sort insertionSort = new InsertionSort();
         insertionSort.testSort(massiveRandom,i+5);
+
+        Sort shellSort = new ShellSort();
+        shellSort.testSort(massiveRandom,i+6);
+        */
+        Sort mergeSort = new MergeSort();
+        mergeSort.testSort(massiveRandom,i+8);
 
     }
 
